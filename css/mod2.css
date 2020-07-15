@@ -3,22 +3,22 @@
 }
 
 h1 {
-	font-size: 27px;
+	font-size: 30px;
 	font-family: Georgia serif;
 	text-align: center;
-	color: rgb(0, 0, 0);
+	color: black;
 	margin-bottom: 30px;
 }
 
 p {
-	padding: 15px 5px 0px 5px;
+	padding: 15px 10px 0px 10px;
 	font-family: Georgia sans-serif;
 	font-size: 16px;
 	position: relative;
 }
 
 .section { 
-	background-color: rgb(150, 150, 150);
+	background-color: #969696;
    	border: 2px solid black;
    	margin-top: 20px; 
    	margin-right: 20px; 
@@ -33,18 +33,18 @@ span {
 	border: 1px solid black;
 	font-weight: bold;
 	text-align: center;
-	float: right; top :0; right: 0; margin: 0;
+	float: right; top :0; right: 0; margin: 10;
 	position: absolute;
 }
-#nr1 {
+#chicken {
 	background-color: rgb(250, 150, 150);
 	color: rgb(0, 0, 0);
 }
-#nr2 {
+#beef {
 	background-color: rgb(250, 0, 0);
 	color: rgb(250, 250, 250);
 }
-#nr3 {
+#sushi {
 	background-color: rgb(200, 200, 100);
 	color: rgb(0, 0, 0);
 }
@@ -64,7 +64,7 @@ span {
 	}
 }
 
-/* Tablet PC view */
+/* Tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
  
   .col-md-6 {
@@ -76,7 +76,7 @@ span {
     float: left;
   }
 }
-/* Cell phone view */
+/* Mobile view */
 @media (max-width: 767px)  {
   
   .col-sx-12 {
